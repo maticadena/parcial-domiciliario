@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(244, 244, 244);
+}
+
+.titulo {
+    display: flex;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.titulo h1 {
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.segundo_titulo {
+    padding-top: 12%;
+    padding-left: 5%;
+    font-weight:bold;
+    font-size:75px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.subtitulo {
+    padding-top: 6%;
+    padding-left: 5%;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: gray 
+}
+
+.subtitulo a {
+    text-decoration: none; 
+    color: gray; 
+    cursor: pointer; 
+}
+
+.figuras{
+    position: relative;
+}
+.figuras img{
+    height: 735px;
+    position: absolute;
+    top: -500px;
+    right: 0;
+}
